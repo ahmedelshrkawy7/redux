@@ -11,7 +11,7 @@ function App() {
 
   const storeState = useSelector((state) => state);
 
-  const counter = useSelector((state) => state.counter);
+  // const counter = useSelector((state) => state.counter);
   const toggleState = useSelector((state) => state.showCounter);
 
   const increase = () => {
